@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "drakcore"
+version = "0.19.0-dev"
+description = ""
+authors = ["DRAKVUF Sandbox Developers"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.27.1"
+Flask = "2.0.3"
+karton-core = "4.3.0"
+uWSGI = "2.0.20"
+colorama = "0.4.4"
+msql = "1.2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
